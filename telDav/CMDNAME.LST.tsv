@@ -1,0 +1,1185 @@
+101001	Open/Close Dome Shutter
+101002	Dome Shutter Stop
+101003	Set Wind Screen SYNC/ASYNC
+101004	Set Wind Screen CMD Position
+101005	Wind Screen Stop
+101006	Set Top Screen Front/Rear/ASYNC
+101007	Set Top Screen CMD Position
+101008	Top Screen Stop
+101101	Set Dome SYNC/ASYNC
+101102	Set Dome CMD Position
+101103	Dome Drive Off
+101104	Set Vent SYNC/ASYNC
+101105	Set Vent CMD Position
+101106	Vent Stop
+101107	Open/Close VentSh
+101108	Wind Control Start/Stop
+101109	Set Wind Screen Auto Mode Change
+10110A	Set AZ/Dome Ope Mode Under Alarm
+10110B	Set Vent Auto Mode Change
+102001	Telescope Stop
+102002	Set Telescope CMD Position(AZ/EL)
+102003	Set Telescope CMD Position(Object)
+102004	Set Telescope CMD Position(File)
+102005	Set Telescope CMD Position(RA/DE)
+103001	Set 2nd Mirror Z CMD Position
+103005	Set 2nd Mirror X CMD Position
+103009	Set 2nd Mirror Y CMD Position
+10300D	Set 2nd Mirror X CMD Angle
+103011	Set 2nd Mirror Y CMD Angle
+103012	Set 2nd Mirror Z CMD Angle
+103015	Set 2nd Mirror L1 CMD Position
+103016	2nd Mirror L1 Drive Off
+103017	Set 2nd Mirror L2 CMD Position
+103018	2nd Mirror L2 Drive Off
+103019	Set 2nd Mirror L3 CMD Position
+10301A	2nd Mirror L3 Drive Off
+10301B	Set 2nd Mirror L4 CMD Position
+10301C	2nd Mirror L4 Drive Off
+10301D	Set 2nd Mirror L5 CMD Position
+10301E	2nd Mirror L5 Drive Off
+10301F	Set 2nd Mirror L6 CMD Position
+103020	2nd Mirror L6 Drive Off
+103021	Refer 2nd Mirror Default
+104001	Set ADC SYNC/ASYNC
+104002	Set ADC Type
+104003	ADC Stop
+104004	Set ADC CMD Speed
+104005	Set ADC CMD Angle
+104006	Set ADC Frequency
+104010	Set Rotator SYNC/ASYNC
+104011	Set Rotator CMD Stop
+104012	Set Rotator CMD Angle
+104013	Set Rotator CMD Speed
+104021	Set ImR Type
+106002	AG Error Detect Start/Stop
+106003	Set AG Error Detection Area
+106004	Set AG Exposure Area
+106005	Set AG CCD Limit
+106006	Set AG Exposure Time
+106007	Get AG CAL Data
+106008	Request AG CAL Data Send
+10600A	Set AG Binning
+10600C	Open/Close AG CCD Shutter
+10600D	AG Exposure On/Off
+10600F	Set AG CAL Used Data
+106010	Set AG CCD Auto Limit Mode
+107001	Set SV Position
+107002	SV Power On/Off
+107003	Set SV Exposure Time
+107004	Set SV Binning
+107006	Open/Close SV Shutter
+107007	SV Exposure On/Off
+107008	Set SV Filter
+10700B	Set SV Exposure Area
+107102	SV Error Detect Start/Stop
+107103	Set SV Error Detection Area
+107105	Set SV CCD Limit
+107107	Get SV CAL Data
+107108	Request SV CAL Data Send
+10710F	Set SV CAL Used Data
+109001	Set SH Exposure Time
+109002	Set SH CCD Limit
+109003	Detect SH Spot Position
+109004	Send SH Spot Position
+109005	SH Exposure On/Off
+109006	Get SH CAL Data
+109007	Send SH CAL Data
+109008	SH Shutter PS On/Off
+109009	Refer SH Test Result
+10900A	Open/Close SH REF Shutter
+10900B	Open/Close SH CCD Shutter
+10900C	Refer SH Pairing Data
+10900D	Set SH Refer Light
+10900E	SH Refer Light On/Off
+10900F	Demand SH Auto Pairing
+109010	Set SH Pairing
+109011	Set SH CAL Data
+109012	Set SH CAL Type
+109013	Set SH Binning
+10D001	Set AG/SH CMD Position
+10D002	AG/SH Stop
+10D003	Retract AG/SH
+10D004	Set AG/SH CMD Position(Object)
+10D005	Set AG/SH Angle CMD Speed
+10D006	Set AG/SH Position CMD Speed
+10E001	Set Cal Source r Drive CMD Position
+10E002	Retract Cal Source r Drive
+10E003	Cal Source r Drive Off
+124001	Open/Close PM/M3 Cover
+124003	Open/Close Cell Cover
+124004	PM/M3 Cover Cover
+125001	Set 3rd Mirror Type
+127001	Set Balancer Complete
+128001	Tip-Tilt Drive Off
+132001	Cs Bolt Power On/Off
+132002	Cs Bolt Clamp On/Off
+132003	Cs Bolt Clamp Stop
+132004	Set InR to Bolt Clamping POSN
+132005	Set InR to Bolt Clearance POSN
+132006	Select CIAX Type
+132007	Select OBE Type of Cs
+132008	Cs Bolt Alarm Reset
+136001	Set P ADC SYNC/ASYNC
+136002	P ADC Drive Off
+136003	Set P ADC CMD Speed
+136004	Set P ADC CMD Position
+136010	Set P Rotator-AZ/EL SYNC/ASYNC
+136011	P Rotator Drive Off
+136012	Set P Rotator CMD Position
+136013	Set P Rotator CMD Speed
+137001	Set P AG/SH CMD Position
+137002	Set P AG/SH Drive Off
+137003	Retract P AG/SH
+137004	Set P AG/SH CMD Position(Object)
+13B001	PIR AG for SH Exposure On/Off
+13B002	Set PIR AG for SH Exposure Time
+13B003	PIR AG for SH Detect Start/Stop
+13B004	Set PIR AG for SH CCD Limit
+13B005	Set PIR AG for SH Binning
+13B006	Set PIR AG for SH Exposure Area
+13B007	Set PIR AG for SH Detection Area
+13B008	PIR Entrance Shutter Open/Close
+13B101	Retract PIR AG/SH Probe
+161001	Set Dome Flat Voltage/Current CMD
+161002	INIT Dome Flat PS
+161003	Select Dome Flat Lamp
+161005	Dome Flat Lamp On/Off
+161006	INIT Dome Flat Temp Unit
+161007	Set Dome Flat Data File
+1A1001	Command Cancel
+1A1002	Refer Command Name File
+1A1003	Refer Complete Waiting Command
+1A1004	All Drive Off
+1A1005	Set Observation Condition
+1A1006	Set Focus Default
+1A1007	CHK Top Unit Observation Condition
+1A1008	Set TSC Mode
+1A1009	Refer H/W Version
+1A100A	Refer S/W Version
+1A100B	Test Demand
+1A100C	Stop Moving Focus
+1A100D	Demand History
+1A100E	Register Schedule
+1A100F	Refer Schedule
+1A1010	Delete Schedule
+1A1011	Send Status Data
+1A1012	Request Survival
+1A1013	Refer Auto Guide History File
+1A1014	Drive Telescope Preset Position
+1A1015	Refer User Name
+1A1016	Schedule On/Off
+1A1017	Request Schedule
+1A1018	Schedule Stop
+1A1019	Set Heat Exh Log Sample Time
+1A101A	Refer Heat Exh Log Data
+1A101B	Refer Heat Exh Log Sampling Time
+1A101C	Set Heat Exh Test Data
+1A101D	Set Heat Exh Parameter
+1A101E	Refer Heat Exh Parameter
+1A101F	Set Heat Exh(Mirror) System Mode
+1A1020	Set Heat Exh(Mirror) CMD Temp
+1A1021	Zero AZ/EL ENCDR
+1A1022	Zero Rotator ENCDR
+1A1023	Zero AG/SH Probe ENCDR
+1A1024	Set Heat Exh System Mode
+1A1025	REQ Servo Loop Test Result
+1A1026	Servo Loop Test Start/Stop
+1A1027	TSC Operation Start
+1A1028	TSC Operation Stop
+1A1029	Set AZ/EL Offset
+1A102A	Set RA/DE Offset
+1A102B	P Rotator ABS Encoder Reset
+1A102C	P AG/SH Probe Encoder Reset
+1A102D	Set AG Refer Position
+1A102E	Chopping/Tip-Tilt Start/Stop
+1A102F	Set a1/a5 of IEC
+1A1030	Select Mirror Temp Control Mode
+1A1031	Set PIR AG for SH Refer Position
+1A1032	Set Cs/Ns/POpt AG Opt Axis Position
+1A1033	Set PIR AG for SH Opt Axis Position
+1A1034	Demand History(for Maintenance)
+1A1035	Select NsIR AO
+1A1036	Demand C-LAN Message Log
+1A1037	Demand M-LAN Message Log
+1A1038	Set HSC AG for SH Opt Axis Position
+1A1039	Set HSC AG for SH Refer Position
+1A1040	Send HSC SH Dark Data
+1A1041	Get HSC SH Dark Data
+1A1042	Set 2nd Mirror Posn to HSC Unit Exch
+1A1101	Macro Command Execute
+1A1102	Register Macro Command
+1A1103	Refer Macro Command List
+1A1104	Refer Macro Command File
+1A1105	Delete Macro Command
+1A1106	Register Object Data
+1A1107	Refer Object Data List
+1A1108	Refer Object Data
+1A1109	Delete Object Data
+1A110A	Register Drive File
+1A110B	Refer Drive File List
+1A110C	Refer Drive File
+1A110D	Delete Drive File
+1A110E	File EDIT Permission On/Off
+1A110F	Macro Sequence Control
+1A1110	Macro Simulation Demand
+1A1111	Macro Simulation Stop
+1A1112	Record Status Data
+1A1113	Auto Test Demand
+1A1114	Register Auto Test File
+1A1115	Refer Auto Test File List
+1A1116	Refer Auto Test File
+1A1117	Delete Auto Test File
+1A1118	Refer Auto Test Result File
+1A1119	Refer Auto Test Result File List
+1A1203	Set PA Parameter For Object
+1A1204	Set PA Parameter For AG
+1A1205	PA Start
+1A1206	Send Object Search File
+1A1207	PA Pause
+1A1208	PA Restart
+1A1209	PA Stop
+1A120A	Select PA IEC Type
+1A120B	CALC PA IEC Data
+1A120C	Register PA IEC Data
+1A120D	Refer PA Area File
+1A120E	Refer PA Result File
+1A120F	Refer PA Result File List
+1A1210	Modify PA CORR Item
+1A1211	Refer PA Tracing Error File
+1A1214	Refer PA IEC CALC Data File
+1A1215	Send PA Result Select File
+1A1216	Register PA Result Select File
+1A121A	CALC PA RMS
+1A121B	Set CALC Condition For PA IEC
+1A121C	Refer CALC Condition For PA IEC
+1A121D	Refer PA IEC Tracing Data
+1A121E	Refer PA IEC File
+1A1301	Register OBE ID
+1A1302	Refer OBE ID
+1A1303	Delete OBE ID
+1A1305	Register 2nd Mirror Default Data
+1A1306	Refer 2nd Mirror Default Data
+1A1307	Refer 2nd Mirror Default Data List
+1A1308	Delete 2nd Mirror Default Data
+1A1309	Refer Interlock List
+1A130A	Interlock On/Off
+1A130B	Set CMD-Interlock Item
+1A130C	Refer CMD-Interlock Item
+1A130F	Register Vent Control File
+1A1310	Refer Vent Control File List
+1A1311	Refer Vent Control File
+1A1312	Delete Vent Control File
+1A1315	Register Exposure Time Default File
+1A1316	Refer Exposure Time Default File
+1A1317	Register Logging Data File
+1A1318	Refer Logging Data File
+1A1319	Register Operator Level-Mode Table
+1A131A	Refer Operator Level-Mode Table
+1A131B	Set INIT Data
+1A131C	Refer INIT Data
+1A131D	Data Logging On/Off
+1A131E	Weather Alarm Detect On/Off
+1A131F	Register Cal Filter Name Table
+1A1320	Refer Cal Filter Name Table
+1A1321	Register Cal Lamp Name Table
+1A1322	Refer Cal Lamp Name Table
+1A1323	Register Vent Control File For EXEC
+1A1401	Send File
+1A1901	TSC Operator Login
+1A1902	TSC Operator Logout
+1A1903	Refer TSC Operator
+1A1904	Computer Lock/Unlock
+1A1905	Buzzer Stop
+1A1906	Buzzer On/Off
+1A1907	Confirm Alarm
+1A1B01	MA Start
+1A1B02	MA Stop
+1A1B03	MA Pause
+1A1B04	MA Restart
+1A1B05	Set MA Off-Axis
+1A1B06	Next MA Angle Range
+1A1B07	Set MA Parameter
+1A1B08	Start Off-Axis SH
+1A1B09	Next Off-Axis SH
+1A1B0F	Refer MA Result File
+1A1B10	Refer Zernike Limit
+1A1B11	Set Zernike Limit
+1A1B12	Refer MA EL Range DEF File
+1A1B13	Refer MA Process Name
+1A1B14	Refer SM IEC File
+1A1B15	Refer PMA/PMFXS IEC File
+1A1B17	Demand MA Simulation
+1A1B18	Refer MA IEC File List
+1A1B1A	Set MA EL Range DEF File
+1A1B1B	Refer Actuator/PMFXS CORR Value
+1A1B1C	Set SM IEC
+1A1B1D	Set Actuator/PMFXS IEC
+1A1B1E	Refer MA Simulation Result
+1A1B1F	CALC MA IEC
+1A1B20	Refer MA Result File List
+1A1B21	Refer Actuator/PMFXS CORR Data
+1A1B22	Clear Actuator Offset CMD
+1A1B23	CALC Result Of Off-Axis SH
+1A1B24	REQ SH Test On/Off
+1A1B25	Set P InR for Half Mirror
+1A1B26	Delete SH Test Result of MA
+1A1B27	Select SH Result No. of Half Mirror
+1B1001	Auto Guide Start/Stop
+1B1002	Dome Light Off
+1B1003	Set Rotator-AZ/EL SYNC/ASYNC
+1B1004	Rotator Drive Off
+1B1005	Set Rotator CMD Position
+1B1006	Set Rotator CMD Speed
+1B1007	Set AG/SH Probe-AZ/EL SYNC/ASYNC
+1B1008	Select Time GEN 0/1
+1B1009	Select Tip-Tilt Signal
+1B100A	Tip-Tilt Mode Start/Stop
+1B100B	Set Chopping Angle RADE/AZEL
+1B100C	Set Non-Sidereal AG Mode
+1B100D	Set AG Star1 REF Position Add
+1B100E	Set AG Star1 REF Position Offset
+1B2001	SH Test Start/Stop
+1B2002	Actuator Alarm Reset
+1B2003	Set Zernike Input
+1B2004	CALC CORR Data From Zernike Offset
+1B2005	Set Mirror Support Mode
+1B2006	Get Correction Force For Zernike
+1B2007	Refer Correction for Zernike Offset
+1B2008	Set Offset Between AG And OBE
+1B2009	A40 On/Off
+1B200A	Actuator CORR Data On/Off
+1B200C	Mirror Analysis On/Off
+1B200D	Auto Focus On/Off
+1B200E	Select Actuator CMD Type
+1B200F	Set 2nd Mirror Offset of (U,V)
+1B2010	Set 2nd Mirror Offset of (U',V')
+1B2012	Set Actuator CMD Position
+1B2014	Set Zernike Offset CMD
+1B2016	Set Zernike Offset to Zero
+1B2017	PMFXS Feedback On/Off
+1B2018	Actuator Sensing Test Start/Stop
+1B2019	Fiec On/Off
+1B2020	Get Actuator Lever Moment
+1B2028	Actuator Drive On/Off
+1B2029	Set Actuator Control Mode
+1B202A	Set Actuator Monitor Mode
+1B202B	Select Actuator CORR
+1B202E	Actuator Step Test Start
+1B202F	Get Actuator Position Offset
+1B2030	Refer Actuator Position Offset
+1B2031	All Actuator Drive Off
+1B2032	All Actuator Drive On
+1B2033	Set Actuator Real Force Sum.Method
+1B2034	CALC Actuator Refer Position
+1B2035	Record Actuator Real Position
+1B2036	Actuator Down Limit Start/Stop
+1B2037	Set Actuator Point Refer Drive File
+1B2038	Actuator Position Mode CORR On/Off
+1B2039	Refer Actuator Position File List
+1B203A	Delete Actuator Position File
+1B203B	Set 2nd Mirror SYNC/ASYNC
+1B203C	Refer Actuator Position File
+1B203D	MLP2 Interlock On/Off
+1B203E	Refer MLP2 Interlock
+1B203F	Set Actuator CMD Position
+1B2040	Actuator Limit Reset
+1B2101	Set MLP2 INIT Data
+1B2102	Download Actuator S/W
+1B2103	Set Mirror Support Recovery Table
+1B2104	Refer Mirror Support Recovery Table
+1B2105	REQ Pupil Filter Create
+1B2106	Set Mirror Support Recovery Mode
+1B2107	Refer Actuator CORR Data
+1B2108	Drive Actuator Down Limit Point
+1B2109	Detect Actuator Down Limit
+1B210A	Set 2nd Mirror Offset CMD Position
+1B210B	Set SH Test CORR Offset CMD Value
+1B210C	CALC SH Test CORR
+1B210E	Set PIR-EL SYNC/ASYNC
+1B210F	Set PIR Offset CMD Position
+1B2110	PIR Auto Focus On/Off
+1B2111	Send HSC SH Spot Position
+1B3001	CONT BLDG EF-1 On/Off
+1B3002	CONT BLDG EF-2 On/Off
+1B3003	CONT BLDG EF-4/SF-2 On/Off
+1B3004	CONT BLDG EF-5/SF-3 On/Off
+1B3005	CONT BLDG EF-3 On/Off
+1B3006	CONT BLDG EF-1/EF-2/SF-1 On/Off
+1B3007	CONT BLDG HU-1 On/Off
+1B3008	CONT BLDG AEH-1 On/Off
+1B3009	Dome EF-1/SF-1 On/Off
+1B300A	Dome EF-2/SF-2 On/Off
+1B300B	Dome EF-3 On/Off
+1B300C	Set Demand Disable/Enable
+1B300F	Set Power For OBE Disable/Enable
+901001	Set Dome CMD Angle
+901002	Set Dome Pointing Mode
+901003	Set Dome Test Mode
+901004	Set Dome Test Pattern
+901005	Set Dome Test CMD Angle
+901006	Set Dome Data Sampling Time
+901007	Dome Drive On
+901008	Dome Drive Off
+901009	Set Dome-AZ SYNC Mode
+902001	Set AZ CMD Angle
+902002	Set EL CMD Angle
+902005	Set AZ Auto Error
+902006	Set EL Auto Error
+902007	Set Mount Pointing Mode
+902008	Set Mount Open Tracking Mode
+902009	Set Mount Auto Guiding Mode
+902010	Set Mount Test Mode
+902011	Set Mount Test Pattern
+902012	AZ Drive On
+902013	AZ Drive Off
+902014	EL Drive On
+902015	EL Drive Off
+902016	Balancer Test On
+902017	Request AZ Fix Position
+902018	Request EL Stow Position
+902019	AZ Fix Pins On
+902020	AZ Fix Pins Off
+902021	EL Stow Pins On
+902022	EL Stow Pins Off
+902023	Set Mount Data Sampling Time
+902024	Set Alarm Stop Reset
+902025	Set Dome-AZ SYNC Mode
+902029	Set AZ INIT PROC
+902030	Zero AZ ENCDR
+902032	Set AZ COMPEN Run
+902034	Set EL INIT PROC
+902035	Zero EL ENCDR
+902037	Set EL COMPEN Run
+903001	Set 2nd Mirror X CMD Position
+903002	Set 2nd Mirror Y CMD Position
+903003	Set 2nd Mirror Z CMD Position
+903004	Set 2nd Mirror X CMD Angle
+903005	Set 2nd Mirror Y CMD Angle
+903006	Set 2nd Mirror L1 CMD Position
+903007	Set 2nd Mirror L2 CMD Position
+903008	Set 2nd Mirror L3 CMD Position
+903009	Set 2nd Mirror L4 CMD Position
+903010	Set 2nd Mirror L5 CMD Position
+903011	Set 2nd Mirror L6 CMD Position
+903012	Set 2nd Mirror Link Mode
+903013	2nd Mirror DPA1 Power On
+903014	2nd Mirror DPA1 Power Off
+903015	2nd Mirror DPA2 Power On
+903016	2nd Mirror DPA2 Power Off
+903017	Set 2nd Mirror SP Mode
+903018	Set 2nd Mirror Z CMD Angle
+903019	2nd Mirror SP Drive On
+903020	2nd Mirror SP Drive Off
+903021	2nd Mirror L1 Drive On
+903022	2nd Mirror L1 Drive Off
+903023	2nd Mirror L2 Drive On
+903024	2nd Mirror L2 Drive Off
+903025	2nd Mirror L3 Drive On
+903026	2nd Mirror L3 Drive Off
+903027	2nd Mirror L4 Drive On
+903028	2nd Mirror L4 Drive Off
+903029	2nd Mirror L5 Drive On
+903030	2nd Mirror L5 Drive Off
+903031	2nd Mirror L6 Drive On
+903032	2nd Mirror L6 Drive Off
+903033	Set 2nd Mirror Normal Mode
+903034	Set 2nd Mirror Test Mode
+903035	Set 2nd Mirror Test Pattern
+903042	Zero 2nd Mirror Link
+903043	2nd Mirror Home Position
+903044	2nd Mirror L/S CONV1 Power On
+903045	2nd Mirror L/S CONV1 Power Off
+903046	2nd Mirror L/S CONV2 Power On
+903047	2nd Mirror L/S CONV2 Power Off
+903048	Set Posn HSC Unit Exch
+904001	Set Rotator CMD Angle
+904002	Set Rotator INIT PROC
+904003	Zero Rotator ENCDR
+904005	Set Rotator Test Data Get Time
+904006	Set Rotator Test Speed
+904007	Rotator Test Stop
+904010	Set Rotator Real Mode
+904011	Set Rotator Test Mode
+904012	Set Rotator Test Pattern
+904013	Rotator Drive On
+904014	Rotator Drive Off
+904015	Select Rotator PIR
+904016	Select Rotator POpt
+904017	Select Rotator Cs
+904018	Select Rotator NsIR
+904019	Select Rotator NsOpt
+904020	Select ImR Blue
+904021	Select ImR Red
+904022	Select ImR None
+904023	ImR Switching Stop
+904028	Set Rotator Pointing Mode
+904041	Set ADC CMD Angle
+904042	Set ADC Real Mode
+904043	Set ADC Test Data Get Time
+904044	Set ADC Test Speed
+904045	ADC Test Stop
+904050	Set ADC Pointing Mode
+904051	Set ADC Test Mode
+904052	Set ADC Test Pattern
+904053	ADC Drive On
+904054	ADC Drive Off
+904055	Select ADC PIR
+904056	Select ADC POpt
+904057	Select ADC Cs
+904058	Select ADC NsOpt
+904059	Set ADC In
+904061	Set ADC Out
+904062	ADC Switching Stop
+906001	AG Exposure On
+906002	AG Exposure Off
+906003	Open AG CCD Shutter
+906004	Close AG CCD Shutter
+906005	Set AG Exposure Time
+906006	Set AG Exposure Area
+906007	Set AG Detect1 Area
+906008	Set AG Detect2 Area
+906009	Set AG Star1 REF Position Default
+906010	Set AG Star2 REF Position Default
+906011	Set AG CCD Limit1
+906012	Set AG Star1 REF Position
+906013	Set ImR Used
+906014	Set AG Gravity of Center Mode
+906015	Set AG Bisection Mode
+906016	Set AG Peak Mode
+906017	Set AG Binning Pattern
+906018	Set AG Star1 REF Position
+906019	AG Star1 Detect On
+906020	AG Star1 Detect Off
+906021	AG Star2 Detect Off
+906022	AG Star2 Detect On
+906023	Select AG P
+906025	Select AG Cs
+906026	Select AG NsIR
+906027	Select AG NsOpt
+906028	Select AG Sky Data Used On
+906029	Select AG Sky Data Used Off
+906030	Select AG Dark Data Used On
+906031	Select AG Dark Data Used Off
+906032	Select AG Flat Data Used On
+906033	Select AG Flat Data Used Off
+906034	Set AG Exposure Count
+906035	Set Diaphragm
+906036	Get AG Sky Data
+906037	Stop AG Sky Data
+906038	Get AG Dark Data
+906039	Stop AG Dark Data
+906040	Get AG Flat Data
+906041	Stop AG Flat Data
+906042	AG PM Diaphragm Open
+906043	AG PM Diaphragm Close
+906044	Set AG Image Size
+906045	Set AG (Tip-Tilt) CCD Limit
+906047	Set AG Image Default Size
+906048	Set AG Normal Mode
+906049	AG CCD Limit Auto Set On
+906050	AG CCD Limit Auto Set Off
+906051	Set AG(Tip-Tilt) Exposure Time
+906052	Set AG Test Mode
+906053	Set AG Test Pattern
+906056	Set AG Auto Guiding Mode
+906057	Set AG Tip-Tilt Mode
+906067	Send AG Sky Data To OBS
+906068	Send AG Sky Data To TWS1
+906069	Send AG Sky Data To TWS2
+906070	Send AG Dark Data To OBS
+906071	Send AG Dark Data To TWS1
+906072	Send AG Dark Data To TWS2
+906073	Send AG Flat Data To OBS
+906074	Send AG Flat Data To TWS1
+906075	Send AG Flat Data To TWS2
+906084	Set AG Data Time
+906091	Start AG Video Output To OBS
+906092	Stop AG Video Output To OBS
+906093	Start AG Video Output To TWS1
+906094	Stop AG Video Output To TWS1
+906095	Start AG Video Output To TWS2
+906096	Stop AG Video Output To TWS2
+906097	Set AG Video Interval To OBS
+906098	Set AG Video Interval To TWS1
+906099	Set AG Video Interval To TWS2
+906100	Set AG CCD AMP Gain High
+906101	Set AG CCD AMP Gain Low
+906102	INIT AG Camera
+906103	Set AG CCD Clock Speed High
+906104	Set AG CCD Clock Speed Medium
+906105	Set AG CCD Clock Speed Low
+906106	Set AG CCD Limit2
+906107	Set AG REF X Offset Position
+906108	Set AG REF Y Offset Position
+907001	Set SV CMD Position
+907003	INIT SV Camera
+907004	Open SV Shutter
+907005	Close SV Shutter
+907006	SV Exposure On
+907007	SV Exposure Off
+907008	Set SV Binning Pattern
+907009	Set SV CCD AMP Gain High
+907010	Set SV CCD AMP Gain Low
+907011	Set SV Exposure Time
+907012	Set SV Filter
+907013	Select SV Cs
+907014	Select SV NsOpt
+907015	Set SV Normal Mode
+907016	Set SV Test Mode
+907017	Set SV Test Pattern
+907021	Set SV Exposure Area
+907022	Set SV Data Time
+907023	Start Video Output To OBS
+907024	Stop Video Output To OBS
+907025	Start Video Output To TWS1
+907026	Stop Video Output To TWS1
+907027	Start Video Output OT TWS2
+907028	Stop Video Output To TWS2
+907029	SV Cs Shutter Power On
+907030	SV Cs Shutter Power Off
+907031	SV NsOpt Shutter Power On
+907032	SV NsOpt Shutter Power Off
+907033	Set SV CCD Clock Speed High
+907034	Set SV CCD Clock Speed Medium
+907035	Set SV CCD Clock Speed Low
+907036	Set SV Video Interval To OBS
+907037	Set SV Video Interval To TWS1
+907038	Set SV Video Interval To TWS2
+907039	SV Cs Motor Power On
+907040	SV Cs Motor Power Off
+907041	SV NsOpt Motor Power On
+907042	SV NsOpt Motor Power Off
+907043	Set SV Star1 REF Position Default
+907044	Set SV Star2 REF Position Default
+907107	Set SV Exposure Area1
+907108	Set SV Exposure Area2
+907109	Set SV Star1 REF Position
+907110	Set SV Star2 REF Position
+907111	Set SV CCD Limit1
+907114	Set SV Gravity of Center Mode
+907115	Set SV Bisection Mode
+907116	Set SV Peak Mode
+907117	Set SV Slit Guide Mode
+907119	SV Area1 Detect On
+907120	SV Area1 Detect Off
+907121	SV Area2 Detect On
+907122	SV Area2 Detect Off
+907123	Set SV Slit Center Position
+907124	Set SV Slit Direction
+907125	Set SV Slit Width
+907126	Set SV Image Size(Slit Guide)
+907128	SV Sky Data Used On
+907129	SV Sky Data Used Off
+907130	SV Dark Data Used On
+907131	SV Dark Data Used Off
+907132	SV Flat Data Used On
+907133	SV Flat Data Used Off
+907134	Set SV Exposure Count
+907136	SV Sky Data Get Start
+907137	SV Sky Data Get Stop
+907138	SV Dark Data Get Start
+907139	SV Dark Data Get Stop
+907140	SV Flat Data Get Start
+907141	SV Flat Data Get Stop
+907144	Set SV Image Size
+907147	Set SV Star1 Image Size Default
+907167	Send SV Sky Data To OBS
+907168	Send SV Sky Data To TWS1
+907169	Send SV Sky Data To TWS2
+907170	Send SV Dark Data To OBS
+907171	Send SV Dark Data To TWS1
+907172	Send SV Dark Data To TWS2
+907173	Send SV Flat Data To OBS
+907174	Send SV Flat Data To TWS1
+907175	Send SV Flat Data To TWS2
+907206	Set SV CCD Limit2
+909001	Set SH CCD AMP Gain High
+909002	Set SH CCD AMP Gain Low
+909003	Set SH Normal Mode
+909004	Set SH Test Mode
+909005	Set SH Test Pattern
+909006	Select SH P
+909008	Select SH Cs
+909009	Select SH NsIR
+909010	Select SH NsOpt
+909011	Set SH Exposure Count
+909012	Set SH Exposure Time
+909013	SH Exposure On
+909014	SH Exposure Off
+909015	Set SH CCD Limit
+909016	Set SH Video Interval(OBS)
+909017	Set SH Video Interval(TWS1)
+909018	Set SH Video Interval(TWS2)
+909019	SH Sky Data Used On
+909020	SH Sky Data Used Off
+909021	SH Dark Data Used On
+909022	SH Dark Data Used Off
+909023	SH REF Position Detect On
+909024	SH REF Position Detect Off
+909025	SH REF Position Detect Start
+909026	SH REF Position Detect Stop
+909027	Send SH SPOT Position
+909028	SH Sky Data Get Start
+909029	SH Sky Data Get Stop
+909030	SH Dark Data Get Start
+909031	SH Dark Data Get Stop
+909032	SH P REF Lamp On
+909033	SH P REF Lamp Off
+909036	Send SH Sky Data To OBS
+909037	Send SH Sky Data To TWS1
+909038	Send SH Sky Data To TWS2
+909039	SH REF Shutter Open
+909040	SH CCD Shutter Open
+909041	SH Camera INIT
+909042	SH REF Shutter Close
+909043	SH CCD Shutter Close
+909044	SH Cs REF Lamp On
+909045	SH Cs REF Lamp Off
+909046	Set SH REF Lamp V
+909049	REQ SH Auto Pairing
+909051	Set SH Data Time
+909052	Send SH Auto Pairing Data
+909053	Send SH Dark Data To OBS
+909054	Send SH Dark Data To TWS1
+909055	Send SH Dark Data To TWS2
+909056	Set AG/SH Probe Position
+909057	Set AG/SH Probe Angle
+909058	Set Rotator Angle
+909059	Set SH Binning Pattern
+909060	Start SH Video Output To OBS
+909061	Stop SH Video Output To OBS
+909062	Start SH Video Output To TWS1
+909063	Stop SH Video Output To TWS1
+909064	Start SH Video Output To TWS2
+909065	Stop SH Video Output To TWS2
+909066	Spot Calculation SH
+909067	Spot Calculation VGW
+909077	SH Background Subtraction Yes
+909078	SH Background Subtraction No
+909079	SH NsIR REF Lamp On
+909080	SH NsIR REF Lamp Off
+909081	SH NsOpt REF Lamp On
+909082	SH NsOpt REF Lamp Off
+909084	SH P Shutter Power On
+909085	SH P Shutter Power Off
+909088	SH Cs Shutter Power On
+909089	SH Cs Shutter Power Off
+909090	SH NsOpt Shutter Power On
+909091	SH NsOpt Shutter Power Off
+909092	SH NsIR Shutter Power On
+909093	SH NsIR Shutter Power Off
+90A001	Heat Exh(Mirror) Fan On
+90A002	Heat Exh(Mirror) Fan Off
+90A003	Set Heat Exh Circulate Mode
+90A004	Set Heat Exh Exhaust Mode
+90A005	Heat Exh(Mirror) Defrost On
+90A006	Heat Exh(Mirror) Defrost Off
+90A007	Heat Exh(Mirror) Defrost Auto
+90A008	Heat Exh(Mirror) Coolant On
+90A009	Heat Exh(Mirror) Coolant Off
+90A011	Heat Exh(Mirror) Coolant Auto
+90A012	Heat Exh(Mirror) Fan High
+90A013	Heat Exh(Mirror) Fan Low
+90D001	Set AG/SH Probe CMD Position
+90D002	Set AG/SH Probe CMD Angle
+90D003	Select AG/SH Probe POpt
+90D004	Select AG/SH Probe PIR
+90D005	Select AG/SH Probe Cs
+90D006	Select AG/SH Probe NsOpt
+90D007	Select AG/SH Probe NsIR
+90D008	AG/SH Probe Position Drive On
+90D009	AG/SH Probe Position Drive Off
+90D010	AG/SH Probe Angle Drive On
+90D011	AG/SH Probe Angle Drive Off
+90D012	Set AG/SH Probe Pointing Mode
+90D013	Set AG/SH Probe Test Mode
+90D014	Set AG/SH Probe Test Pattern
+90D019	Set AG/SH Probe Position INIT PROC
+90D020	Zero AG/SH Probe Position ENCDR
+90D022	Set AG/SH Probe Angle INIT PROC
+90D023	Zero AG/SH Probe Angle ENCDR
+90D025	Set AG/SH Probe CMD Mode
+90D026	Set AG/SH Probe Real Mode
+90E001	Set Cal Source CMD Position
+90E002	Set Cal Source H.C.1 Current
+90E003	Set Cal Source H.C.2 Current
+90E004	Set Cal Source Halogen1 Current
+90E005	Set Cal Source Halogen2 Current
+90E006	Set Cal Source Rare Gas1 Current
+90E007	Set Cal Source Rare Gas2 Current
+90E008	Select Cal Source POpt
+90E009	Select Cal Source PIR
+90E010	Select Cal Source Cs
+90E011	Select Cal Source NsIR
+90E012	Select Cal Source NsOpt
+90E013	Set Cal Source Normal Mode
+90E014	Set Cal Source Test Mode
+90E015	Set Cal Source Test Pattern
+90E016	Cal Source Drive On
+90E017	Cal Source Drive Off
+90E018	Retract Cal Source
+90E019	Select Cal Source H.C1
+90E020	Select Cal Source H.C.2
+90E021	Selected Cal Source Others Lamp
+90E022	Select Cal Source FilterA1
+90E023	Select Cal Source FilterA2
+90E024	Select Cal Source FilterA3
+90E025	Select Cal Source FilterA4
+90E026	Select Cal Source FilterB1
+90E027	Select Cal Source FilterB2
+90E028	Select Cal Source FilterB3
+90E029	Select Cal Source FilterB4
+90E030	Select Cal Source FilterC1
+90E031	Select Cal Source FilterC2
+90E032	Select Cal Source FilterC3
+90E033	Select Cal Source FilterC4
+90E034	Select Cal Source FilterD1
+90E035	Select Cal Source FilterD2
+90E036	Select Cal Source FilterD3
+90E037	Select Cal Source FilterD4
+90E038	Cal Source H.C.1 On
+90E039	Cal Source H.C.1 Off
+90E040	Cal Source H.C.2 On
+90E041	Cal Source H.C.2 Off
+90E042	Cal Source Halogen1 On
+90E043	Cal Source Halogen1 Off
+90E044	Cal Source Halogen2 On
+90E045	Cal Source Halogen2 Off
+90E046	Cal Source Rare Gas1 On
+90E047	Cal Source Rare Gas1 Off
+90E048	Cal Source Rare Gas2 On
+90E049	Cal Source Rare Gas2 Off
+90E050	Cal Source Shutter Open
+90E051	Cal Source Shutter Close
+90E052	Cal Source Lamp Cooling Fan On
+90E053	Cal Source Lamp Cooling Fan Off
+90E057	Zero Cal Source ENCDR
+90E058	Out Cal Source P Filter
+90E059	In Cal Source P Filter
+924001	Set Cover Normal Mode
+924002	Set Cover Test Mode
+924003	Set Cover Test Pattern
+924006	Open PM/M3 Cover
+924007	Close PM/M3 Cover
+924008	PM/M3 Cover Stop
+924010	Cell Cover Stop
+924011	Open Cell Cover
+924012	Close Cell Cover
+924017	Select PM/M3 Cover All
+924018	Select All Upper Cover
+924019	Select U-1A Cover
+924021	Select U-1B Cover
+924023	Select U-2A Cover
+924025	Select U-2B Cover
+924027	Select U-3A Cover
+924029	Select U-3B Cover
+924031	Select U-3C Cover
+924033	Select U-3D Cover
+924035	Select All Lower Cover
+924036	Select L-A Cover
+924038	Select L-B Cover
+924040	Select L-C Cover
+924042	Select L-D Cover
+924044	Select All Door
+924045	Select U-1A-1 Door
+924046	Select U-1B-1 Door
+924047	Select U-2A-1 Door
+924048	Select U-2B-1 Door
+924049	Select U-3A-1 Door
+924050	Select U-3B-1 Door
+924051	Select U-3C-1 Door
+924052	Select U-3D-1 Door
+924053	Select TM Cover
+925001	In IR 3rd Mirror
+925002	Out IR 3rd Mirror
+925003	In Opt 3rd Mirror
+925004	Out Opt 3rd Mirror
+925007	Set 3rd Mirror Normal Mode
+925008	Set 3rd Mirror Test Mode
+925009	Set 3rd Mirror Test Pattern
+925010	Stop IR 3rd Mirror
+925011	Stop Opt 3rd Mirror
+927001	Set Balancer Adjustment Angle
+927007	Select Balancer Auto Mode
+927008	Select Balancer Position Mode
+927010	Start Balancer
+927011	Stop Balancer
+927019	Set Top Unit Code
+927022	Set Balancer Normal Mode
+927023	Set Balancer Test Mode
+927024	Set Balancer Test Pattern
+927025	REQ CONF ANG Pointing Balancer
+928001	Set Chopping CMD Frequency
+928002	Set Chopping CMD Amplitude
+928003	Set Chopping CMD Angle
+928004	Set Chopping Bias
+928005	Set Chopping OffSet -
+928006	Set Chopping OffSet 0
+928007	Set Chopping OffSet +
+928008	Tip-Tilt Drive On
+928009	Tip-Tilt Drive Off
+928010	Set Chopping Mode
+928011	Set Tip-Tilt Mode
+928012	Set Tip-Tilt Position Mode
+928018	Set Chopping X CMD Angle
+928019	Set Chopping Y CMD Angle
+928020	Set Chopping SM CMD Position
+928021	SEL Chopping Pattern1
+928022	SEL Chopping Pattern2
+928023	SEL Chopping Pattern3
+928024	SEL Chopping INT Clock
+928025	SEL Chopping EXT Clock
+928026	Chopping Start
+928027	Chopping Stop
+928028	Set Chopping RZ CMD Position
+929001	Set Hydrostatic Temp
+929002	Hydrostatic Control Start
+929003	Hydrostatic Control Stop
+930001	Set Wind Screen CMD Position
+930002	Set Front Top Screen CMD Position
+930003	Set Rear Top Screen CMD Position
+930004	Set Front V CMD Position
+930005	Set Rear V1 CMD Position
+930006	Set Rear V2 CMD Position
+930007	Set Rear V3 CMD Position
+930008	Set Rear V4 CMD Position
+930009	Set Side VA CMD Position
+930010	Set Side VB CMD Position
+930011	Set Side VC CMD Position
+930012	Set Side VD CMD Position
+930013	Dome Shutter Open
+930014	Dome Shutter Close
+930016	Wind Screen Drive On
+930017	Wind Screen Drive Off
+930018	Front V Open
+930019	Rear V1 Open
+930020	Top Screen Drive On
+930021	Top Screen Drive Off
+930022	Rear V2 Open
+930023	Rear V3 Open
+930024	Rear V4 Open
+930025	Side VA Open
+930027	Front V Drive Off
+930032	Rear V1 Drive Off
+930033	Rear V2 Drive Off
+930034	Rear V3 Drive Off
+930035	Rear V4 Drive Off
+930037	Side VA Drive Off
+930039	Side VB Drive Off
+930041	Side VC Drive Off
+930043	Side VD Drive Off
+930044	Open VentSh
+930045	Close VentSh
+930046	Set NsIR Room Temp CMD
+930047	Set NsOpt Room Temp CMD
+930048	Set Telescope Room Temp CMD
+930049	Dome Cooling System1 On
+930050	Dome Cooling System1 Off
+930051	Dome Cooling System2 On
+930052	Dome Cooling System2 Off
+930053	Open Side VB
+930054	Open Side VC
+930055	Dome Shutter Power On
+930056	Dome Shutter Power Off
+930057	Wind Screen Power On
+930058	Wind Screen Power Off
+930059	Top Screen Power On
+930060	Top Screen Power Off
+930061	Select Top Screen Both
+930062	Select Top Screen Front
+930063	Select Top Screen Rear
+930064	Dome All Light Off
+930065	Open Side VD
+930066	Close Front V
+930067	Close Rear V1
+930068	Close Rear V2
+930069	Close Rear V3
+930070	Close Rear V4
+930071	Close Side VA
+930072	Close Side VB
+930073	Close Side VC
+930074	Close Side VD
+931001	Set Heat Exh(Drive/OBE) CMD Temp
+931002	Set Heat Exh(Mirror) CMD Temp
+932001	Set All Cs Bolt Up Limit Position
+932002	Set All Cs Bolt Down Limit Position
+932003	All Cs Bolt Stop
+932004	Set Cs Bolt1 Up Limit Position
+932005	Set Cs Bolt1 Down Limit Position
+932006	Cs Bolt1 Stop
+932007	Set Cs Bolt2 Up Limit Position
+932008	Set Cs Bolt2 Down Limit Position
+932009	Cs Bolt2 Stop
+932010	Set Cs Bolt3 Up Limit Position
+932011	Set Cs Bolt3 Down Limit Position
+932012	Cs Bolt3 Stop
+932013	Set Cs Bolt4 Up Limit Position
+932014	Set Cs Bolt4 Down Limit Position
+932015	Cs Bolt4 Stop
+932016	Set Cs Bolt5 Up Limit Position
+932017	Set Cs Bolt5 Down Limit Position
+932018	Cs Bolt5 Stop
+932019	Set Cs Bolt6 Up Limit Position
+932020	Set Cs Bolt6 Down Limit Position
+932021	Cs Bolt6 Stop
+932022	Set Cs Bolt7 Up Limit Position
+932023	Set Cs Bolt7 Down Limit Position
+932024	Cs Bolt7 Stop
+932025	Set Cs Bolt8 Up Limit Position
+932026	Set Cs Bolt8 Down Limit Position
+932027	Cs Bolt8 Stop
+932028	Set Cs Bolt9 Up Limit Position
+932029	Set Cs Bolt9 Down Limit Position
+932030	Cs Bolt9 Stop
+932031	Set Cs Bolt10 Up Limit Position
+932032	Set Cs Bolt10 Down Limit Position
+932033	Cs Bolt10 Stop
+932034	Set Cs Bolt11 Up Limit Position
+932035	Set Cs Bolt11 Down Limit Position
+932036	Cs Bolt11 Stop
+932037	Set Cs Bolt12 Up Limit Position
+932038	Set Cs Bolt12 Down Limit Position
+932039	Cs Bolt12 Stop
+932040	Set Cs Bolt13 Up Limit Position
+932041	Set Cs Bolt13 Down Limit Position
+932042	Cs Bolt13 Stop
+932043	Set Cs Bolt14 Up Limit Position
+932044	Set Cs Bolt14 Down Limit Position
+932045	Cs Bolt14 Stop
+932046	Set Cs Bolt15 Up Limit Position
+932047	Set Cs Bolt15 Down Limit Position
+932048	Cs Bolt15 Stop
+932049	Set Cs Bolt16 Up Limit Position
+932050	Set Cs Bolt16 Down Limit Position
+932051	Cs Bolt16 Stop
+936001	Set P Rotator CMD Angle
+936002	Set P Rotator INIT PROC
+936003	Set P Rotator REF PROC
+936007	Set P Rotator Real Mode
+936008	Set P Rotator Test Mode
+936009	Set P Rotator Test Pattern
+936010	Set P Rotator Drive On
+936011	Set P Rotator Drive Off
+936017	Set P Rotator Pointing Mode
+936041	Set P ADC CMD Position
+936042	Set P ADC Real Mode
+936046	Set P ADC Pointing Mode
+936047	Set P ADC Test Mode
+936048	Set P ADC Test Pattern
+936049	P ADC Drive On
+936050	P ADC Drive Off
+937001	Set P AG/SH Probe X CMD Position
+937002	Set P AG/SH Probe Y CMD Position
+937003	Set P AG/SH Probe Z CMD Position
+937006	P AG/SH Probe X Drive On
+937007	P AG/SH Probe X Drive Off
+937008	P AG/SH Probe Y Drive On
+937009	P AG/SH Probe Y Drive Off
+937010	P AG/SH Probe Z Drive On
+937011	P AG/SH Probe Z Drive Off
+937012	Set P AG/SH Probe Pointing Mode
+937013	Set P AG/SH Probe Test Mode
+937014	Set P AG/SH Probe Test Pattern
+937020	Set P AG/SH Probe INIT PROC
+937021	Zero P AG/SH Probe X ENCDR
+937024	Zero P AG/SH Probe Y ENCDR
+937027	Zero P AG/SH Probe Z ENCDR
+93B001	Set PIR AG for SH REF Position
+93B002	PIR AG for SH Exposure On
+93B003	PIR AG for SH Exposure Off
+93B004	PIR AG for SH Detect On
+93B005	PIR AG for SH Detect Off
+93B006	Set PIR AG for SH Exposure Time
+93B007	Set PIR AG for SH CCD Limit
+93B008	Set PIR AG for SH Binning Pattern
+93B009	Set PIR AG for SH Exposure Area
+93B010	Set PIR AG for SH Detect Area
+93B011	PIR AG Entrance Shutter Open
+93B012	PIR AG Entrance Shutter Close
+93B013	Init PIR AG Entrance Shutter
+93B014	Start PIR AG Video Output To OBS
+93B015	Stop PIR AG Video Output To OBS
+93B016	Start PIR AG Video Output To TWS1
+93B017	Stop PIR AG Video Output To TWS1
+93B018	Start PIR AG Video Output To TWS2
+93B019	Stop PIR AG Video Output To TWS2
+93B020	Set PIR AG Video Interval To OBS
+93B021	Set PIR AG Video Interval To TWS1
+93B022	Set PIR AG Video Interval To TWS2
+93B031	Set PIR AG/SH Probe CMD Position
+93B032	PIR AG/SH Probe Position Drive On
+93B033	PIR AG/SH Probe Position Drive Off
+93B034	Zero PIR AG/SH Probe ENCDR
+93B041	Set PIR z CMD Position
+93B042	PIR z Drive On
+93B043	PIR z Drive Off
+93B044	Zero PIR z Link
+93B045	Set PIR r CMD Position
+93B046	PIR r Drive On
+93B047	PIR r Drive Off
+93B048	Zero PIR r Link
+93D001	HSC Entrance Shutter Open
+93D002	HSC Entrance Shutter Close
+93D003	Start HSCSCAG AG Video Output To OBS
+93D004	Stop HSCSCAG AG Video Output To OBS
+93D005	Start HSCSCAG AG Video Output To TWS1
+93D006	Stop HSCSCAG AG Video Output To TWS1
+93D007	Start HSCSCAG AG Video Output To TWS2
+93D008	Stop HSCSCAG AG Video Output To TWS2
+93D009	Set HSCSCAG Video Interval To OBS
+93D010	Set HSCSCAG Video Interval To TWS1
+93D011	Set HSCSCAG Video Interval To TWS2
+93E001	HSC Entrance Shutter Open
+93E002	HSC Entrance Shutter Close
+93E003	Set HSC Diaphragm 400
+93E004	Set HSC Diaphragm 5000
+93E005	HSC AG for SH Exposure On
+93E006	HSC AG for SH Exposure Off
+93E007	HSC AG for SH Detect On
+93E008	HSC AG for SH Detect Off
+93E009	Set HSC AG for SH Exposure Time
+93E010	Set HSC AG for SH Exposure Area
+93E011	Set HSC AG for SH Detect Area
+93E012	Set HSC AG for SH Star REF Position
+93E013	Start HSCSHAG AG Video Output To OBS
+93E014	Stop HSCSHAG AG Video Output To OBS
+93E015	Start HSCSHAG AG Video Output To TWS1
+93E016	Stop HSCSHAG AG Video Output To TWS1
+93E017	Start HSCSHAG AG Video Output To TWS2
+93E018	Stop HSCSHAG AG Video Output To TWS2
+93E019	Set HSCSHAG Video Interval To OBS
+93E020	Set HSCSHAG Video Interval To TWS1
+93E021	Set HSCSHAG Video Interval To TWS2
+93E022	Set HSC AG for SH CCD Limit
+93F001	HSC Entrance Shutter Open
+93F002	HSC Entrance Shutter Close
+93F003	Select HSC 400 Diaphragm
+93F004	Select HSC 5000 Diaphragm
+93F005	HSC SH Exposure On
+93F006	HSC SH Exposure Off
+93F007	Start HSC SH Test 
+93F008	Stop HSC SH Test 
+93F009	Set HSC SH Exposure Time
+93F010	HSC SH REF Lamp On
+93F011	HSC SH REF Lamp Off
+93F012	Start HSCSH AG Video Output To OBS
+93F013	Stop HSCSH AG Video Output To OBS
+93F014	Start HSCSH AG Video Output To TWS1
+93F015	Stop HSCSH AG Video Output To TWS1
+93F016	Start HSCSH AG Video Output To TWS2
+93F017	Stop HSCSH AG Video Output To TWS2
+93F018	Set HSCSH Video Interval To OBS
+93F019	Set HSCSH Video Interval To TWS1
+93F020	Set HSCSH Video Interval To TWS2
+93F021	Set HSCSH CCD Limit
+93F022	HSC SH REF Position Detect On
+93F023	HSC SH REF Position Detect Off
+93F024	Select HSC SH Dark Data Used On
+93F025	Select HSC SH Dark Data Used Off
+93F026	Get HSC SH Dark Data
+93F027	Stop HSC SH Dark Data
+93F028	Send HSC SH Dark Data To OBS
+93F029	Send HSC SH Dark Data To TWS1
+93F030	Send HSC SH Dark Data To TWS2
+93F031	Set HSC SH REF Lamp PWM
