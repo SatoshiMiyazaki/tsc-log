@@ -13,8 +13,11 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg
 import io
 import base64
 
-class FetchData():
-    def __init__(self, startDatetime, stopDatetime, names, dbName="N/A", isVerbose=False):
+import datetime
+import math
+
+class FetchDataTest():
+    def __init__(self, startDatetime, stopDatetime, names, dbName="N/A", isVerbose=False, numberOfPlotPoints=0):
         self.startDatetime = startDatetime
         self.stopDatetime = stopDatetime
         self.names = names
@@ -40,6 +43,18 @@ class FetchData():
         else:
             self.dbName = dbName
         self.isVerbose = isVerbose
+        self.numberOfPlotPoints = numberOfPlotPoints
+
+        delta = datetime.datetime.strptime(stopDatetime, '%Y-%m-%d %H:%M:%S') - datetime.datetime.strptime(startDatetime, '%Y-%m-%d %H:%M:%S')
+
+        if self.dataType == 'S':
+            self.numberOfData =  delta.total_seconds() * 10
+        elif self.dataType == 'L':
+            self.numberOfData = delta.total_seconds()
+        else: # 'E'
+            self.numberOfData = 0  # not used below
+
+
 
     def run(self):
         conn = sqlite3.connect(self.dbName)
@@ -50,7 +65,12 @@ class FetchData():
         
         tableName = f"{self.devName.replace('-', '_')}_{self.dataType}"
 
-        self.dataframe = pd.read_sql(f"SELECT {items} FROM {tableName} where datetime > '{self.startDatetime}' and datetime < '{self.stopDatetime}'", conn)
+        if self.dataType == 'E' or self.numberOfPlotPoints == 0: # no skip
+            self.dataframe = pd.read_sql(f"SELECT {items} FROM {tableName} where datetime > '{self.startDatetime}' and datetime < '{self.stopDatetime}'", conn)
+        else:
+            skip = math.floor(self.numberOfData / self.numberOfPlotPoints)
+            self.dataframe = pd.read_sql(f"SELECT {items} FROM {tableName} where datetime > '{self.startDatetime}' and datetime < '{self.stopDatetime}' and rowid % {skip} = 0", conn)
+        
         #print(df.info())
         self.dataframe['datetime']= pd.to_datetime(self.dataframe['#rxdate'] + ' ' + self.dataframe['rxtime(HST)'])
 

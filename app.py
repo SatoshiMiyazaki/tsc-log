@@ -23,7 +23,7 @@ app = Flask(__name__)
 auth = HTTPBasicAuth()
 
 users = {
-    "subaru": "telescope"
+    "foo": "foofoo"
 }
 
 
