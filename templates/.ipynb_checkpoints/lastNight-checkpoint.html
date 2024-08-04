@@ -1,0 +1,63 @@
+<!-- 
+ lastNight.html for TSC Log Display 
+ Satoshi Miyazaki
+ Subaru Telescope / National Astronomical Observatory of Japan
+ June 29, 2024
+-->
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TSC Log Display</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+	  rel="stylesheet"
+	  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	  crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+	  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+	    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/static/css/style.css"> 
+
+    <link rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+	  crossorigin="anonymous"/>
+
+  </head>
+  <body class="bg-gray">
+    <main>
+      <div class="container">
+        <p></p>
+        <h1> Night Report</h1>
+        <p></p>
+        <form class="form-inline" method="post">
+	    <div class="form-group">
+    		<label class="sr-only" for="startDatetime"></label>
+            <div class="input-group mb-3">	  
+               <span class="input-group-text">on</span>
+    		   <input id="reportDate" name="reportDate"
+    			 value="{{reportDate}}" type="text"
+    			 class="form-control">
+               <button class="btn btn-primary" type="submit">Display</button>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-md-6"><img src="{{weatherPlot}}" width="100%" /></div>
+            <div class="col-md-6"><img src="{{azElPlot}}" width="100%" /></div>  
+        </div>
+        <br>  
+          
+        <pre class="pre-scrollable"><code>{{testText}}</code></pre>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+

@@ -18,6 +18,7 @@ import datetime
 
 from telDav import FetchData
 from telDav import ApparatusStatus
+from telDav import ClanMonitor
 
 app = Flask(__name__)
 auth = HTTPBasicAuth()
@@ -127,6 +128,47 @@ def lastNight():
                                testText=testText)
     
     return render_template('lastNight.html', reportDate=defaultReportDate)
+
+@app.route('/clanMonitor', methods = ["GET" , "POST"])
+@auth.login_required
+def clanMonitor():
+    now = datetime.datetime.now()
+    yesterday = now - datetime.timedelta(days=1)
+    defaultStartDatetime = datetime.datetime(yesterday.year, yesterday.month, yesterday.day, 17, 0, 0)
+    defaultStopDatetime = datetime.datetime(now.year, now.month, now.day, 6, 0, 0)
+    defaultKeyWords = ""
+
+    if request.method == 'POST': # POSTの処理
+        startDatetime = datetime.datetime.strptime(request.form['startDatetime'], '%Y-%m-%d %H:%M:%S')
+        stopDatetime = datetime.datetime.strptime(request.form['stopDatetime'], '%Y-%m-%d %H:%M:%S')
+        stringKeyWords = request.form['keyWords'] 
+        
+        listKeyWords = []
+        for keyWord in stringKeyWords.split(','):
+            keyWord = keyWord.strip() 
+            listKeyWords.append(keyWord)
+
+
+        clanMonitor = ClanMonitor.ClanMonitor(startDatetime=startDatetime,
+                                      stopDatetime=stopDatetime,
+                                      keyWords=listKeyWords)
+
+        lines = clanMonitor.run()
+        resultText = ""
+        for l in lines:
+            resultText += f'{l}\n'
+            
+        return render_template('clanMonitor.html', 
+                               startDatetime=startDatetime.strftime('%Y-%m-%d %H:%M:%S'),
+                               stopDatetime=stopDatetime.strftime('%Y-%m-%d %H:%M:%S'),
+                               keyWords=stringKeyWords,
+                               resultText = resultText)
+
+    return render_template('clanMonitor.html',
+                            startDatetime=defaultStartDatetime.strftime('%Y-%m-%d %H:%M:%S'),
+                            stopDatetime=defaultStopDatetime.strftime('%Y-%m-%d %H:%M:%S'),
+                            keyWords=defaultKeyWords) 
+
     
 if __name__ == "__main__":
     app.run(host='::', port=8001, debug=False)
